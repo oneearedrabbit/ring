@@ -30,7 +30,7 @@ Backfill:
 $ ./ring -assets SPY -backfill output.log
 ```
 
-## Benchmark
+## Benchmarks
 
 Disruptor:
 ```
@@ -58,6 +58,6 @@ PASS
 ok  	kruzenshtern.org/alpaca/ring	2.142s
 ```
 
-I've been running the application for about a week in 2020 and I
-didn't notice any visible bottlenecks. When it falls behind (e.g.
+I've been running the application for about a week in 2020, and I
+didn't notice any bottlenecks. When it falls behind (e.g.
 volume spike), it catches up momentarily.
