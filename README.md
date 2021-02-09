@@ -3,9 +3,9 @@
 This is a port of the ![LMAX
 Disruptor](https://lmax-exchange.github.io/disruptor/disruptor.html)
 into the Go programming language. In the spirit of LMAX pattern, this
-is zero-allocation implementation. Once a ring buffer is initialized
-there's no additional overhead which means it'll process messages at a
-constant rate.
+is also a zero-allocation implementation. Once a ring buffer is
+initialized there's no additional overhead which means it'll process
+messages at a constant rate.
 
 I'm not using Alpaca go library as it causes unnecessary allocations
 during runtime. Instead, I'm relying `gobwas/ws` which does (almost)
